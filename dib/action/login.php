@@ -29,13 +29,5 @@ fwrite($file,$message);
 
 	header("Location:  loading.html");
 	
-}else{
-	
-	header('Location:  index.html');
-}	
-	
-	
-}else{
-	header('Location:  index.html');
 }
 ?>
