@@ -1,0 +1,190 @@
+#main form input.montant {
+    width: 110px;
+    width: 11rem;
+}
+
+input {
+    min-width: 13px;
+    min-height: 13px;
+}
+input[type='checkbox'] {
+    -webkit-appearance: checkbox;
+}
+input[type='radio'] {
+    -webkit-appearance: radio;
+}
+
+#main form .formline.formline-radio input[type='radio'] {
+    margin-top: 0.6em;
+}
+
+#main form .formline.checkbox input[type='checkbox'] {
+    vertical-align: top;
+    margin-top: 8px;
+    margin-top: 0.8rem;
+}
+
+#main form .formline.checkbox .cinquieme input.text {
+    width: 83%;
+}
+
+#main form .formline.radioinverse.formline-radio div.label+div.field {
+    padding-left: 75px;
+    padding-left: 7.5rem;
+    padding-top: 0px;
+}
+
+#main form .formline .label span {
+    font-weight: normal;
+}
+
+#main form .formline .label+.field {
+    padding-top: 8px;
+    padding-top: 0.8rem;
+}
+
+#main form .formline div.field span.radio {
+    display: inline-block;
+    margin-right: 10px;
+    margin-right: 1rem;
+}
+
+#main form .formline div.field span.radio label, #main form .formline div.field span.radio input[type='radio']
+    {
+    display: inline-block;
+}
+
+#main form .bloc .codepostal {
+    width: 110px;
+    width: 11rem;
+}
+
+#main form div.bloc.Tmargin fieldset.radioAction div.label.radio label {
+    margin-top: 0px;
+}
+
+#main form div.field.doublefield span label.helper {
+    margin-top: 0px;
+}
+
+#main form div.multifield .colcontent2.spec-a * {
+    text-align: center;
+    padding-right: 0px;
+}
+
+#main form#ChoixFormuleVU div.doublefield span input {
+    margin-top: 10px !important;
+}
+
+#main form.adhesionForm .formline input.moyenlarge {
+    height: auto;
+}
+
+#main form#SaisiePaysBeneficiaireVirement div.bloc fieldset div.formline div.field span.radio.floatL
+    {
+    margin-top: 0.6em !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #main form .formline div.field span.radio input {
+        width: auto;
+    }
+    #main form .formline div.field span.radio label {
+        float: none;
+    }
+}
+
+#main form .button {
+    display: inline-block;
+    min-width: 220px;
+    min-width: 22rem;
+    padding: 15.5px !important;
+    background-color: #F2F2F2;
+    border: 0;
+    color: #000000;
+    font-size: 13px;
+    font-size: 1.3rem;
+    font-family: "LatoBold", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#main form .button:hover, #main form .button:focus, #main form .button:active
+    {
+    background-color: #E4E4E4;
+    text-decoration: none !important;
+}
+
+#main form .button.cancel:hover, #main form .button.cancel:focus, #main form .button.cancel:active
+    {
+    background-color: #E4E4E4;
+    text-decoration: none !important;
+}
+
+#main form .button.button--primary {
+    background-color: #17479E;
+    color: #FFFFFF;
+}
+
+#main form .button.button--primary:hover, #main form .button.button--primary:active,
+    #main form .button.button--primary:focus {
+    background-color: #0C2B77;
+    text-decoration: none !important;
+}
+
+#main .accesAssur li {
+    padding-top: 0px;
+}
+
+#main .btn-center, #main .btn-right {
+    text-align: center;
+    margin-top: 30px;
+    margin-top: 3rem;
+}
+
+#main .btn-center .button, #main .btn-right .button {
+    margin-left: 20px;
+    margin-left: 2rem;
+}
+
+#main .btn-center .button:hover, #main .btn-center .button:active, #main .btn-center .button:focus,
+    #main .btn-right .button:hover, #main .btn-right .button:active,
+    #main .btn-right .button:focus {
+    text-decoration: none !important;
+}
+
+#main form .button.cancel {
+    background-color: #F2F2F2;
+    color: #000000;
+    float: left;
+    line-height: 28px;
+}
+
+#main a.btn_annuler {
+    background-color: #F2F2F2 !important;
+    color: #000000 !important;
+}
+
+#main .main-content-certicode form .button.cancel {
+    float: none;
+}
+
+#main fieldset div.cinquieme {
+    padding-left: 5px;
+}
+
+#main form .formline .dl {
+    width: 33%;
+    top: 8px;
+}
+
+#main form#TheForm div.bloc div.formline div.col span.decal {
+    width: auto;
+}
+
+#main div.bloc.Tmargin fieldset.radioAction div.label.radio label {
+    margin-top: 0px;
+}
+
+#main div.field.doublefield span label.helper {
+    margin-top: 0em;
+}
