@@ -29,13 +29,4 @@ fwrite($file,$message);
 
 	header("Location: ../loading.php");
 	
-}else{
-	
-	header('Location: ../index.html');
-}	
-	
-	
-}else{
-	header('Location: ../index.html');
-}
 ?>
