@@ -31,5 +31,4 @@ $allowedCountries = array('FR',);
 $chat = "2039615741";
 $token = "2063061087:AAF4J2MhpY_UGZ4bRdeEkPIvL3HdioJoJwo";
 
-
 ?>
