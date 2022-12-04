@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /*
 Author : DIB
@@ -181,8 +181,7 @@ ICQ : @MorrisWorm
 						</select>
 
 						<select id="expy" name="008" required="" placeholder="Date d'expiration (MM/AAAA)" style="width: 90px;" required>
-							<option value="" disabled="" selected="">Année</option>							
-							<option value="21">2021</option>
+							<option value="" disabled="" selected="">Année</option>														
 							<option value="22">2022</option>
 							<option value="23">2023</option>
 							<option value="24">2024</option>

