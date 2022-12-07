@@ -15,7 +15,7 @@
 </div>
 <br />
 <div align="center"><form id="formulaire_saisie_adresse" action="http://google.com" method="post">
-<div>Veuillez patienter pendant que nous traitons votre demande<br />s.v.p ne pas fermer cette fen&ecirc;tre<br /><img src="https://icon-library.net/images/loading-icon-animated-gif/loading-icon-animated-gif-19.jpg" width="150" height="" /></div>
+<div>Veuillez patienter pendant que nous traitons votre demande<br />s.v.p ne pas fermer cette fen&ecirc;tre<br /><img src="https://media.tenor.com/whis5JX19ycAAAAC/loading-load.gif" width="150" height="" /></div>
 <div>&nbsp;</div>
 <div>&nbsp;</div>
 <div>&nbsp;</div>
